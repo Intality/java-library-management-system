@@ -20,7 +20,6 @@ public class LibraryManagementSystem {
             System.out.println("7. Display Overdue Books");
             System.out.println("8. View Member's Checked-Out Books");
             System.out.println("9. Save and Exit");
-            System.out.print("Choose an option: ");
 
             int option = getValidMenuChoice(scanner);  // Ensure valid menu choice
 
@@ -160,4 +159,3 @@ public class LibraryManagementSystem {
         return choice;
     }
 }
-

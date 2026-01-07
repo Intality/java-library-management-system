@@ -17,8 +17,11 @@ public class Member implements Serializable {
         this.memberID = generateMemberID(name);  // Generate a simple unique member ID
     }
 
-    // The total number of unique combinations for a 4-character ID is:
-    // 36^4 = 36 * 36 * 36 * 36 = 1,679,616
+    /* There are 36 possible characters (A–Z, 0–9) and a 4-character suffix,
+    resulting in 36^4 (1,679,616) possible combinations.
+    This provides a sufficiently large ID space for this project,
+    though uniqueness is not strictly guaranteed. */
+
 
     // Method to generate a unique member ID using the first 3 letters of the name and a random suffix
     private String generateMemberID(String name) {
