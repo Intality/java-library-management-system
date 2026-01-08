@@ -1,4 +1,4 @@
-# Library Management System (Java)
+# 📖 Library Management System (Java)
 
 A console-based library system for managing books and members, with persistent storage across multiple program runs.
 
